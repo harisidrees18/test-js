@@ -21,3 +21,4 @@ let isloggedIn = false // boolean// => true/false
     console.log(typeof null);
     
     
+    

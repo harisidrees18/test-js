@@ -32,13 +32,33 @@ const bigNumber = 356789905056n
  const myFunction= function(){
     console.log("Hello World");
  }
- console.log(typeof anotherId);
- console.log(typeof myValue);
-console.log(typeof bigNumber);
-console.log(typeof outTemp);
-console.log(typeof myFunction);
+//  console.log(typeof anotherId);
+//  console.log(typeof myValue);
+// console.log(typeof bigNumber);
+// console.log(typeof outTemp);
+// console.log(typeof myFunction);
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++Memory+++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack memory is used in all primitive datatypes , In stack we get a copy of whatever variable is declared 
+// heap memory is used is non primitive datatypes , In heap we get a refference for orignal value and wahtever change is made it is made in orignal value
+
+let  myRepositname = "harisidrees18"
+
+let anotherReposit = myRepositname
+anotherReposit = "harrychaudhry2218"
+console.log(myRepositname);
+
+console.log(anotherReposit);
+
+ let firstCst = {
+    email: "customer@google.com",
+    age: 67
+ }
+ let secondCst = firstCst
+secondCst.email = "harry@google.com"
+ console.log(firstCst);
+ console.log(secondCst);
  
  
